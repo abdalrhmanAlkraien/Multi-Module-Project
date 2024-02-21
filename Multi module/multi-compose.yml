@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  cartService:
+    image:  abdalrhmanalkraien/multi-module-service:v1.0.0
+    ports:
+      - "8082:8080"
+    networks:
+      - database_network
+      - gateway_network
+networks:
+  database_network:
+    external: true
+  gateway_network:
+    external: true

@@ -1,0 +1,38 @@
+#app:
+#  version: @project.version@
+#  api:
+#    version: 'v1'
+#
+## Spring properties
+#spring:
+#  application:
+#    name: MultiModule
+#  servlet:
+#    multipart:
+#      enabled: true
+#      max-file-size: 10MB
+#      max-request-size: 10MB
+#  jpa:
+#    #    defer-datasource-initialization: true
+#    open-in-view: false
+#    properties:
+#      hibernate:
+#        generate_statistics: true
+#        # Switching on batch insert
+#        # Take the time to group inserts by entity, creating larger batches.
+#        order_inserts: true
+#        order_updates: true
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#        # collect inserts in batches of 100
+#        jdbc:
+#          size: 100
+##    datasource:
+##      url: jdbc:mysql://127.0.0.1:3306/Energydb?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+##      username: EnergyAdmin
+##      password: EnergyPassword
+#      hikari:
+#        initialization-fail-timeout: 60000
+#        connection-test-query: SELECT 1
+#        maximum-pool-size: 10
+#        connection-timeout: 30000
+#      driver-class-name: com.mysql.cj.jdbc.Driver

@@ -2,34 +2,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.example</groupId>
+        <groupId>com.project.modules</groupId>
         <artifactId>Multi-module</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.project.modules</groupId>
-    <artifactId>app-module</artifactId>
-    <packaging>jar</packaging>
-    <name>app-module Maven Webapp</name>
+    <artifactId>store-module</artifactId>
+    <name>store-module</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
-        <dependency>
-            <groupId>com.project.modules</groupId>
-            <artifactId>user-module</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.project.modules</groupId>
-            <artifactId>store-module</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
         <dependency>
             <groupId>com.project.modules</groupId>
             <artifactId>common-module</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 </project>
